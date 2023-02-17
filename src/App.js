@@ -1,10 +1,15 @@
-import { Container } from './components/styled/Container.styled';
+import Header from './components/Header';
+//We use curry braces for exports that are not default
+import { Container } from './components/styles/Container.styled';
 
 function App() {
 	return (
-		<Container>
-			<h1>Hello World</h1>
-		</Container>
+		<>
+			<Header />
+			<Container>
+				<h1>Hello World</h1>
+			</Container>
+		</>
 	);
 }
 
