@@ -1,8 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from './components/styled/Container.styled';
 
 function App() {
-	return <h1>Hello Yesaya.</h1>;
+	return (
+		<Container>
+			<h1>Hello World</h1>
+		</Container>
+	);
 }
 
 export default App;
